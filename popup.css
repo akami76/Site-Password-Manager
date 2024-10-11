@@ -1,0 +1,106 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.add-icon-btn {
+    font-size: 24px;  /* "+" 아이콘 크기 */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007BFF;
+    margin-right: 0;
+    padding: 0;
+}
+
+.add-icon-btn:hover {
+    color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.save-btn, .cancel-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.save-btn:hover, .cancel-btn:hover {
+    background-color: #0056b3;
+}
+
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.list-group-item a {
+    flex: 1;
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 10px;
+}
+
+.list-group-item span {
+    margin-right: 10px;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.icon-btn:hover {
+    color: #007BFF;
+}
